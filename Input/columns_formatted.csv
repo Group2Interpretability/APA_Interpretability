@@ -1,5 +1,5 @@
 #,Column name,Short description,Format,Long description,Values
-1,fico,Credit Score,Numeric,"CREDIT SCORE - A number, prepared by third parties, summarizing the borrower’s creditworthiness, which may be indicative of the likelihood that the borrower will timely repay future obligations. Generally, the credit score disclosed is the score known at the time of acquisition and is the score used to originate the mortgage.","300 - 850
+1,fico,Credit Score,Numeric,"CREDIT SCORE - A number, prepared by third parties, summarizing the borrower√ïs creditworthiness, which may be indicative of the likelihood that the borrower will timely repay future obligations. Generally, the credit score disclosed is the score known at the time of acquisition and is the score used to originate the mortgage.","300 - 850
 9999 = Not Available,
 if Credit Score is < 300 or > 850."
 2,dt_first_pi,First Payment Date,Date,FIRST PAYMENT DATE - The date of the first scheduled mortgage payment due under the terms of the mortgage note.,YYYYMM
