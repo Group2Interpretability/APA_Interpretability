@@ -8,7 +8,7 @@
 :file_folder: Pictures and Data Input Files needed to sucessfully execute the Notebook 
 
 ## How to get started
-:chains: To make your life easy, the Notebook takes Pictures and Data Input Files directly from this repo. 
+:chains: To make your life easy, the Notebook takes the Pictures and Data Input Files directly from this repo. 
 
 :bar_chart: Alternatively, you may download the files contained in this repo and run the code on your local machine. 
 
