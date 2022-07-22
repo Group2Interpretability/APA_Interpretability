@@ -12,7 +12,7 @@
 
 :bar_chart: Alternatively, you may download the files contained in this repo and run the code on your local machine. 
 
-:warning: It that case you will evidently need to adjust the input paths.
+:warning: In that case you will evidently need to adjust the input paths.
 
 :rocket: You are now ready to rock n' roll! 
 
