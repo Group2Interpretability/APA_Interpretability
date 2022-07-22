@@ -10,7 +10,7 @@
 ## How to get started
 :chains: To make your life easy, the Notebook takes the Pictures and Data Input Files directly from this repo. 
 
-:bar_chart: Alternatively, you may download the files contained in this repo and run the code on your local machine. 
+:bar_chart: Alternatively, you may download the files contained in this repo. 
 
 :warning: In that case you will evidently need to adjust the input paths.
 
