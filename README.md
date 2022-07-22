@@ -1,2 +1,22 @@
 # APA_Interpretability
-Submission to the Seminar Applied Predicitive Analytics at Humboldt University Berlin. 
+
+:sparkles: Welcome to this repo documenting our final submission to the Seminar Applied Predicitive Analytics at Humboldt University Berlin. 
+
+## Content
+:snake: Python Notebook 
+
+:file_folder: Pictures and Data Input Files needed to sucessfully execute the Notebook 
+
+## How to get started
+:chains: To make your life easy, the Notebook takes Pictures and Data Input Files directly from this repo. 
+
+:bar_chart: Alternatively, you may download the files contained in this repo and run the code on your local machine. 
+
+:warning: It that case you will evidently need to adjust the input paths.
+
+:rocket: You are now ready to rock n' roll! 
+
+:sunny: Have fun! 
+
+## Questions
+:mailbox_with_no_mail: To get in touch with us, send an e-mail to 'group2@gmx.net'. 
