@@ -1,0 +1,41 @@
+﻿Source;Title;Local vs. Global Interpretability;Data;Methodology;Key Insights/Conclusion
+Baesens et al. (2003);Using Neural Network Rule Extraction and Decision Tables for Credit-Risk Evaluation;Local ;"German credit risk dataset from UCI repository (Dua and Graff 2019) and two datasets obtained from major Benelux financial insti-
+tutions.";Neural Network Rule Extraction Techniques (Neurorule, Trepan, and Nefclass) and Decision Tables ;Usefulness of Neural Networks due to their universal approximation property. Conclusive rules extracted by Neurorule and Trepan. Use of Decision Table to visualize reules in an intuitive graphical format.
+Bussmann et al. (2019);Explainable AI in Credit Risk Management;Local & Global;Lending Club data set obtained from Kaggle ;Logistic Regression, XGBoost, Random Forest,  Support Vector Machine, Neural Network + Post-hoc Explanability using LIME and SHAP;LIME and SHAP deliver logical and consistent explanations
+Bussmann et al. (2021);Explainable Machine Learning in Credit Risk Management;Local & Global;Data obtained from Modefinance, a European Credit Assessment Institution (ECAI);XGBoost + Post-hoc Explanability using TreeSHAP (cf. Lundberg et al. 2020);"""explainable AI models can effectively advance the understanding of the determinants of financial risks and, specifically, of credit risks."""
+Demajo et al. (2021);An Explanation Framework for Interpretable Credit Scoring;Local & Global;"Home
+Equity Line of Credit (HELOC) and Lending Club (LC) Datasets";"XGBoost + Post-hoc Explanability using SHAP+GRIP, Anchors and ProtoDash; Interpretability judged by domain experts";"Domain experts judged that ""the three types of explanations provided are complete and correct, effective and useful, easily understood, sufficiently detailed and trustworthy."""
+Dumitrescu et al. (2022);Machine learning for credit scoring: Improving logistic regression with non-linear decision-tree effects;Local ;Simulated Data and Two Real Datasets ;Logistic Regression + Decision Trees;Improvement in predictive power while maintaining its interpretability
+Hayashi (2016);Application of a rule extraction algorithm family based on the Re-RX algorithm to financial credit risk assessment from a Pareto optimal perspective;Global ;Australian Credit Dataset, German Credit Dataset  (Dua and Graff 2019) and two datasets obtained from major Benelux financial institutions.;"Neural Network + Recursive rule extraction using the Re-RX
+algorithm family";"""Continuous Re-RX, Re-RX with J48graft, and Sampling Re-RX comprise a powerful management tool that allows the creation of advanced, accurate, concise and interpretable decision support systems for credit risk evaluation."""
+Lundberg & Lee (2017);"A Unified Approach to Interpreting Model
+Predictions";Local;-;SHAP as additive feature importance method using Shapley values;"SHAP framework identifies the class of additive feature importance methods (which includes six previous methods) and shows
+there is a unique solution in this class that adheres to desirable properties."
+Lundberg et al. (2020);From local explanations to global understanding with explainable AI for trees;Local & Global;chronic kidney disease data from the CRIC study.;Shapley values + TreeSHAP + SHAP interaction values;SHAP Extention by offering many tools for model interpretation that combine local explanations, such as dependence plots, summary plots, supervised clusterings and explanation embeddings.
+Molnar (2018);Interpretable machine learning: A guide for making black box models explainable.;Local & Global;-;"summarizes all 
+actual explainable 
+ML tools ";"summary of all 
+possible Explainable
+methods"
+Ribeiro et al.(2016);"""Why Should I Trust You?"" Explaining the Predictions of any Classifier";Local and Global ;Multi-polarity and Religion dataset available at their Github;LIME used on Deep Networks for Images and SVM for Text Data ;Introduces LIME with the goal of local interpretability and SP LIME to measure global interpretability. The former is done by approximating the black box model using an interpretable model and the latter is proceeded via choosing representative observations from the data to provide a global view of the model. The paper moves toward achieving interpretability with the ultimate goal of gaining trust in ML models.
+Ribeiro et al. (2018);"Anchors: High-Precision 
+Model-Agnostic 
+Explanations";Local;"lending dataset & 
+rcdv dataset";"Usage of the
+anchor method
+on tabular data
+and image data
+to evaluate it's
+working method";"Anchors highlight 
+the part of the input 
+that is sufficient for 
+the classifier to 
+make the prediction, 
+making them intuitive 
+and easy to understand."
+Uddin et al. (2020);Leveraging random forest in micro‐enterprises credit risk modelling for accuracy and interpretability;Global ;micro-enterprises data obtained from one of the leading commercial banks of China;Random Forst + Relative variable importance;Essentiality of traditional financial variables and Relevance of alternative predictors (such as macroeconomic conditions) whos inclusion enhances existing modelling approaches
+Visani et al. (2022);Statistical stability indices for LIME: Obtaining reliable explanations for machine learning models;Local;An anonymised statistical sample, obtained by pooling data from several Italian financial institutions;Investigating LIME stability by performing repeated calls and comparing the results;Definition of LIME, especially the specification of kernel and the model's comlexity measure alongside with the method's feature choice makes the model strongly prone to instability of results. To address this issue, the paper introduces coefficient and variable stability index which help the practitioners to first investigate the issue and second, search for possible solutions.
+Xia et al. (2020);A Dynamic Credit Scoring Model Based on Survival Gradient Boosting Decision Tree Approach;Global ;Data obtained from a consumer loan transactions of a major P2P lending platform in the U.S.;-;"A ""novel dynamic credit scoring model (i.e., SurvXGBoost) is proposed based on survival gradient boosting decision tree (GBDT) approach."" and ""maintains some interpretability"" by indicating feature importance. "
+Yuan et al. (2022);An Empirical Study of the Effect of Bachground Data Size on the Stability of Shapley Additive Explanations (SHAP) for Deep Learning Models;Local & Global;MIMIC-III, a freely accessible critical care database;Stability of SHAP with various background dataset sizes;"Show that SHAP explanations fluctuate when using a small background sample
+size and that these fluctuations decrease when the background dataset sampling size increases. This finding holds true
+for both instance and model-level explanations. "
