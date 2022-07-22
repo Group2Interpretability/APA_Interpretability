@@ -3,7 +3,7 @@
 :sparkles: Welcome to this repo documenting our final submission to the Seminar Applied Predicitive Analytics at Humboldt University Berlin. 
 
 ## Content
-:snake: Python Notebook 
+:snake: Python Notebook (as .ipynb and .py)
 
 :file_folder: Pictures and Data Input Files needed to sucessfully execute the Notebook 
 
